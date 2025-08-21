@@ -1,0 +1,13 @@
+import { de } from "@messageformat/runtime/lib/cardinals";
+import { plural } from "@messageformat/runtime";
+export default {
+  "4CE1E71B36413F5A6D": () => "throw de",
+  C67559323D0BC64870: () => "Login de",
+  "45D3A467ED52854ED7": (d) => "Hello " + d.user + " de",
+  F7B1290288762F0DA8: () => "Bar de",
+  "2C8B7D3B6E098AC492": () => "Go to home page de",
+  "6FA6B1868756D33236": () => "login de",
+  "1486A322F9A4519C20": (d) => "Hello " + plural(d.p, 0, de, { one: "one", other: "two" }) + " de",
+  "33D17BC3D43F87F984": () => "foo tButton de",
+  A614CC79EAF053E4E0: () => "foo de"
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.util.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "vitest",
+      "vitest/globals",
+      "vitest/importMeta"
+    ]
+  }
+}

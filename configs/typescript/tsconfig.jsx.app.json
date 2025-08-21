@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.jsx.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": ["vite/client", "solid-marked", "vinxi/types/client"]
+  }
+}

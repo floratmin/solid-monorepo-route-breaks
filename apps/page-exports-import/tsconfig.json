@@ -1,0 +1,18 @@
+{
+  "extends": "../../configs/typescript/tsconfig.jsx.app.json",
+  "compilerOptions": {
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts", "src/**/*.spec.tsx", "src/**/*.test.tsx"],
+  "references": [
+//    {
+//      "path": "./tsconfig.app.json"
+//    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}

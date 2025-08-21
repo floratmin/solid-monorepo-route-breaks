@@ -1,0 +1,13 @@
+node_modules
+dist
+build
+.env
+.env.neon
+.env.production
+.dev.vars
+.output
+.vinxi
+.secrets
+*.log
+pnpm-debug.log*
+.idea

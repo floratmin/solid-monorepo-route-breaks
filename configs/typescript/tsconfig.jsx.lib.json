@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.jsx.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "types": ["vite/client", "solid-marked", "vinxi/types/client"]
+  }
+}

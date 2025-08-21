@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    "declaration": false,
+    "outDir": "../../dist/out-tsc",
+    "types": [
+      "node",
+      "vitest",
+      "vitest/globals"
+    ]
+  }
+}

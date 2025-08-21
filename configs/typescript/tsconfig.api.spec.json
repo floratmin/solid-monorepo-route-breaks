@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.api.json",
+  "compilerOptions": {
+    "types": [
+      "vitest/globals",
+      "vitest/importMeta",
+      "@cloudflare/vitest-pool-workers",
+      "node",
+      "vitest",
+    ]
+  }
+}
