@@ -10,11 +10,5 @@ export default defineConfig({
     },
   },
   vite: {
-    // plugins: [viteExtractTranslationFunction({
-    //   i18nProject: JSON.parse(fs.readFileSync(path.resolve('i18n.config.json'), 'utf8')) as I18nProject,
-    //   translateRoutes: translateRoutesMock,
-    //   translate: translateMock,
-    //   dicts: {},
-    // } as ViteExtractTranslationFunctionProps<any, any>)],
   },
 });
